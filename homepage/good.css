@@ -1,0 +1,79 @@
+html {    
+    background:rgb(44, 44, 44);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: auto;
+    background:rgb(218, 218, 218);
+    color: black;
+    padding: 0;
+    padding-bottom: 40px;
+}
+
+#top_panel {
+    height: 40px;
+    background-color: rgb(177, 84, 31);
+    padding: 0px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.445);
+}
+
+#header {
+    position: relative;
+    height: 200px;
+    padding: 0px;
+
+    /* From https://cssgradient.io/ */
+    background: linear-gradient(0deg, rgb(6, 81, 119) 0%, rgba(0,128,143,1) 35%, rgba(0,211,255,1) 100%);
+}
+
+#profile {
+    /* position: absolute; */
+    top: 60px;
+    left: 500px;
+    height: 125px;
+}
+
+#whoami {
+    margin-left: 110px;
+    margin-top: -130px;
+}
+
+h1 {
+    text-align: center;
+    width: 50px;
+    margin-left: 150px;
+    color:rgb(255, 249, 223);
+    font-size: 42px;
+
+    /* Stacking multiple shadows, from: https://stackoverflow.com/a/42109702 */
+    text-shadow: 0px 0px 50px rgb(255, 243, 228), 0px 0px 50px rgb(255, 243, 228);
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#content {
+    position: relative;
+    margin: 20px;
+    height: auto;
+}
+
+#main_page {
+    max-width: 720px;
+}
+
+#sidebar {
+    float: right;
+    position: absolute;
+    width: 400px;
+    right: 10px;
+    top: 0;
+    background-color: rgb(187, 187, 187);
+}
+
+#sidebar_padding {
+    margin: 10px;
+}
